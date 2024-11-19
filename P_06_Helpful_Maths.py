@@ -1,0 +1,5 @@
+lis=list(map(int,input().split("+")))
+lis.sort()
+lis=map(str,lis)
+d="+".join(lis)
+print(d)

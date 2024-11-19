@@ -1,0 +1,5 @@
+a=list(map(int,input().split()))
+l=len(a)
+b=set(a)
+le=len(b)
+print(l-le)
